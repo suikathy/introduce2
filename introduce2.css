@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.topImgContainer{
+    padding: 5% 15% 10% 15%;
+    position: relative;
+}
+
+
+.topName{
+    font-family: Staatliches;
+    position: absolute;
+    bottom: 5%;
+    right: 7%;
+    font-size: 7vw;
+}
+
+.fixedMenu{
+    list-style: none;
+    font-family: Staatliches;
+    font-size: 2.5vw;
+    margin-left: 3% ;
+}
+
+.catchcopy{
+    text-align: center;
+    font-size: 4.5vw;
+    font-family: Yu Gothic;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.topText{
+    text-align: center;
+    font-family: Yu Gothic;
+    font-size: 1.6vw;
+    font-weight: 900;
+}
+
+.sectiontitle{
+    text-align: center;
+    font-size: 20vw;
+}
