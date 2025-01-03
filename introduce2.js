@@ -7,3 +7,8 @@ topImg.onmouseout = function(){
 topImg.onmouseover = function(){
     this.src = 'image/web集合写真.jpg';
 }
+
+const favorite = document.querySelector('.favoriteItem');
+const itemList = [
+    
+]
