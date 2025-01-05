@@ -16,6 +16,15 @@ li{
     font-size: 7vw;
 }
 
+.topImg{
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.topImg:hover{
+    filter: grayscale(0%);
+}
+
 .topImgContainer{
     padding: 2% 15% 10% 15%;
     

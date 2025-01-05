@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+    color: white;
+     /*IE(Internet Explorer)・Microsoft Edgeへの対応*/
+    -ms-overflow-style: none;
+    /*Firefoxへの対応*/
+    scrollbar-width: none;
+    }
+
+ /*Google Chrome、Safariへの対応*/
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+li{
+    list-style: none;
+}
+
+header{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0 2% 0;
+    justify-content: space-between;
+}
+
+.headerMenu{
+    font-family: Staatliches;
+    font-size: 3vw;
+    margin-right: 2% ;
+    text-align: right;
+    align-content: end;
+}
+
+header .myName{
+    text-align: left;
+    margin-left: 2%;
+}
+
+
+.fotter{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 0 2% 0;
+}
+
+.snsIcon{
+    display: flex;
+    flex-direction: row;
+    max-width: 25vw;
+}
+
+.sns{
+    margin-right: 3%;
+    flex-wrap: nowrap;
+}
+
+.fotterLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2%;
+}
+
+.fotterMenu{
+    font-family: Staatliches;
+    font-size: 3vw;
+    margin-right: 2% ;
+    text-align: right;
+    align-content: end;
+}
+
+.fotterMenuItem{
+    margin-bottom: 10%;
+}
+
+h4{
+    position: relative;
+    display: inline-block;
+}
+
+h4::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #9c2925;
+    transition: width .3s ease;
+}
+
+h4:hover::after{
+    width: 100%;
+}
+
+.myName{
+    font-family: Staatliches;
+    font-size: 4.5vw;
+}
+
+.about{
+    font-family: Staatliches;
+    font-size: 8vw;
+    text-align: center;
+}
