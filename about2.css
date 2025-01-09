@@ -108,3 +108,54 @@ h4:hover::after{
     font-size: 8vw;
     text-align: center;
 }
+
+.icons{
+    display: grid;
+    grid-template-rows: 27.77vw 27.77vw 27.77vw ;
+    grid-template-columns: 27.77vw 27.77vw 27.77vw ;
+    gap: 2vw;
+    justify-content: center;
+    margin:3vw 0 6vw 0;
+}
+
+.aboutitem{
+    background-color: white;
+    border-radius:25% 25% 25% 25%;
+    font-family: Yu Gothic;
+    text-align: center;
+    color: black;
+    /* margin: 1vw 1vw 1vw 1vw; */
+    font-size: 2.7vw;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutitem h1{
+    margin-bottom: 2vw;
+}
+
+
+
+.img{
+    position: relative;
+}
+
+.imgitem{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+
+
+.Contact{
+    font-family: Yu Gothic;
+    font-size: 2.7vw;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    margin: 3% 0 10% 0;
+}
