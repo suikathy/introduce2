@@ -153,6 +153,7 @@ h4:hover::after{
 .sns{
     margin-right: 3%;
     flex-wrap: nowrap;
+    width: 2.5vw;
 }
 
 .fotterLeft{
@@ -258,3 +259,7 @@ h4:hover::after{
       transform: translateY(0%);
     }
   }
+
+@media  (max-width: 700px) {
+    
+}
