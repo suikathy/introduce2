@@ -103,8 +103,44 @@ h4:hover::after{
     font-size: 4.5vw;
 }
 
+.fotterMyName{
+    font-size: 3.5vw;
+}
+
+.mainContent{
+    width: 80vw;
+    max-height: 100vh;
+    font-size: 2.222vw;
+    font-family: Yu Gothic;
+    margin: 5% auto 10% auto;
+}
+
 .about{
     font-family: Staatliches;
     font-size: 8vw;
-    text-align: center;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.aboutLeftImg{
+    width: 40vw;;
+}
+
+.aboutRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.aboutBigText{
+    font-size: 3.333vw;
+    font-weight: bold;
 }

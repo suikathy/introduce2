@@ -48,6 +48,10 @@ header .myName{
     padding: 2% 0 2% 0;
 }
 
+.fotterMyName{
+    font-size: 3.5vw;
+}
+
 .snsIcon{
     display: flex;
     flex-direction: row;
